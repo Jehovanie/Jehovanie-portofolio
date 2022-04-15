@@ -2,9 +2,9 @@ import React from 'react';
 
 const Testimonials = () => {
     return (
-        <div className='testimonials'>
+        <section id="testimonials">
             testimonials
-        </div>
+        </section>
     );
 };
 
