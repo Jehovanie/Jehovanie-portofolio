@@ -1,11 +1,29 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import './contact.css';
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
+import emailjs from '@emailjs/browser';
 
 
 const Contact = () => {
+
+    const form = useRef();
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        let templateParams = {
+            name: name,
+            email: email,
+            message: message
+        };
+        emailjs.send('service_94v4ag1', 'template_voovpye', templateParams, "bm-vD__83zgRXzkNa");
+    };
+
     return (
         <section id="contact">
             <h5>Get in Touch </h5>
@@ -33,14 +51,15 @@ const Contact = () => {
                     </article>
                 </div>
 
-                <form action="">
-                    <input type="text" name="name" placeholder='Your full name' required />
-                    <input type="email" name="email" placeholder='your email' required />
-                    <textarea name="message" cols="30" rows="7" placeholder='Your message ... ' required></textarea>
-                    <button type="submit" className='btn btn-primary'>Send Message</button>
+                <form ref={form} onSubmit={sendEmail}>
+                    <input type="text" name="name" placeholder='Your full name' required onChange={(e) => setName(e.target.value)} />
+                    <input type="email" name="email" placeholder='your email' required onChange={(e) => setEmail(e.target.value)} />
+                    <textarea name="message" cols="30" rows="7" placeholder='Your message ... ' required onChange={(e) => setMessage(e.target.value)}>
+                    </textarea>
+                    <button type="submit" className='btn btn-primary' onClick={() => alert('clicked ... ')}>Send Message</button>
                 </form>
             </div>
-        </section>
+        </section >
     );
 };
 
