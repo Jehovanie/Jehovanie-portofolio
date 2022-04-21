@@ -69,7 +69,16 @@ header {
 @media screen and (max-width : 1024px) {
 
     header {
-        height: 68vh;
+        height: 100vh;
+    }
+
+    .scroll__down {
+        bottom: 3rem;
+    }
+
+    .me {
+        padding: 3rem 0rem 0rem 0rem;
+        margin-top: 3rem;
     }
 
 }

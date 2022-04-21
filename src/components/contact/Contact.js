@@ -52,9 +52,9 @@ const Contact = () => {
                 </div>
 
                 <form ref={form} onSubmit={sendEmail}>
-                    <input type="text" name="name" placeholder='Your full name' required onChange={(e) => setName(e.target.value)} />
-                    <input type="email" name="email" placeholder='your email' required onChange={(e) => setEmail(e.target.value)} />
-                    <textarea name="message" cols="30" rows="7" placeholder='Your message ... ' required onChange={(e) => setMessage(e.target.value)}>
+                    <input type="text" name="name" placeholder='Your full name ...' required onChange={(e) => setName(e.target.value)} />
+                    <input type="email" name="email" placeholder='Your email ...' required onChange={(e) => setEmail(e.target.value)} />
+                    <textarea name="message" cols="30" rows="7" placeholder='Your message ...' required onChange={(e) => setMessage(e.target.value)}>
                     </textarea>
                     <button type="submit" className='btn btn-primary' onClick={() => alert('clicked ... ')}>Send Message</button>
                 </form>
