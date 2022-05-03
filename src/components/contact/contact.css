@@ -1,5 +1,5 @@
 .container.contact__container {
-    width: 58%;
+    width: 68%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
@@ -56,12 +56,34 @@ textarea {
     color: var(--color-white);
 }
 
-/* ================== MEDIA QUERIES ( MEDIEUM DEVICES ) ==================== */
+/* ================== MEDIA QUERIES ( LARGE DEVICES ) ==================== */
 
 @media screen and (max-width : 1024px) {
     .container.contact__container {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 30% 58%;
+        gap: 12%;
+        height: 90% !important;
+
+    }
+
+    .experience__frontend {
+        padding: 2.4rem 3rem;
+        border-radius: 2rem;
+        border: 1px solid transparent;
+        transition: var(--transition);
+        height: fit-content;
+    }
+}
+
+/* ================== MEDIA QUERIES ( MEDIEUM DEVICES ) ==================== */
+
+@media screen and (max-width : 724px) {
+    .container.contact__container {
         grid-template-columns: 1fr;
         gap: 2rem;
+        height: 130vh !important;
     }
 
 }
@@ -71,5 +93,11 @@ textarea {
 @media screen and (max-width : 600px) {
     .container.contact__container {
         width: var(--container-width-sm);
+    }
+
+    .contact__options,
+    form {
+        width: 90%;
+        margin: 0 auto;
     }
 }

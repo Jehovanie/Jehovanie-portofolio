@@ -1,5 +1,6 @@
 .about__container {
     display: grid;
+    margin-top: 10%;
     grid-template-columns: 35% 50%;
     gap: 15%;
 }
@@ -20,6 +21,11 @@
     transform: rotate(10deg);
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     transition: .5s;
+}
+
+img {
+    width: 100%;
+    height: 350px;
 }
 
 .about__me-image:hover {
@@ -66,9 +72,39 @@
     color: var(--color-light);
 }
 
-/* ================== MEDIA QUERIES ( MEDIEUM DEVICES ) ==================== */
+/* ================== MEDIA QUERIES ( LARGE DEVICES ) ==================== */
 
 @media screen and (max-width : 1024px) {
+    .about__container {
+        display: grid;
+        grid-template-columns: 35% 60%;
+        gap: 10%;
+        height: 80% !important;
+    }
+
+    .about__me {
+        width: 120%;
+    }
+
+    .about__me-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about__cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.3rem;
+    }
+
+    .about__card {
+        padding: 1.5rem;
+    }
+}
+
+/* ================== MEDIA QUERIES ( MEDIEUM DEVICES ) ==================== */
+
+@media screen and (max-width : 720px) {
 
     .about__container {
         grid-template-columns: 1fr;

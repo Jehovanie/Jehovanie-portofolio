@@ -64,12 +64,16 @@ header {
     font-size: 0.9rem;
 }
 
+/* ================== MEDIA QUERIES ( LARGE DEVICES ) ==================== */
+
+@media screen and (max-width : 1024px) {}
+
 /* ================== MEDIA QUERIES ( MEDIEUM DEVICES ) ==================== */
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width : 724px) {
 
     header {
-        height: 100vh;
+        height: 90vh;
     }
 
     .scroll__down {
@@ -79,7 +83,17 @@ header {
     .me {
         padding: 3rem 0rem 0rem 0rem;
         margin-top: 3rem;
+        margin-bottom: 0;
+
+        position: relative;
+
     }
+
+    .me img {
+        position: absolute;
+        bottom: 0;
+    }
+
 
 }
 
@@ -88,7 +102,7 @@ header {
 @media screen and (max-width : 600px) {
 
     header {
-        height: 100vh;
+        height: 90vh;
     }
 
     .header__socials,

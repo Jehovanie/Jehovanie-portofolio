@@ -31,9 +31,9 @@ const Nav = () => {
             >
                 <BiBook />
             </a>
-            <a href="#services"
-                onClick={() => setActiveNav("#services")}
-                className={activeNav === "#services" ? 'active' : ""}
+            <a href="#project"
+                onClick={() => setActiveNav("#project")}
+                className={activeNav === "#project" ? 'active' : ""}
             >
                 <RiServiceLine />
             </a>
