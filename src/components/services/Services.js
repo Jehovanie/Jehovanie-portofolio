@@ -11,17 +11,42 @@ const Services = () => {
             <div className="container services__container">
                 <article className="service">
                     <div className="service__head">
-                        <h3> UI/UX Design </h3>
+                        <h3> Front-End Developpement </h3>
                     </div>
 
                     <ul className='service__list'>
                         <li>
                             <BiCheck className="service__list-icon" />
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p>Build web site static on HTML/CSS/JS.</p>
                         </li>
                         <li>
                             <BiCheck className="service__list-icon" />
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p>Make responsive on web site.</p>
+                        </li>
+                        <li>
+                            <BiCheck className="service__list-icon" />
+                            <p>Integrate web maquette design</p>
+                        </li>
+                        <li>
+                            <BiCheck className="service__list-icon" />
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </li>
+                    </ul>
+                </article>
+
+                <article className="service">
+                    <div className="service__head">
+                        <h3>Back-End Developpement</h3>
+                    </div>
+
+                    <ul className='service__list'>
+                        <li>
+                            <BiCheck className="service__list-icon" />
+                            <p>Interact on the data base and the Front-end</p>
+                        </li>
+                        <li>
+                            <BiCheck className="service__list-icon" />
+                            <p>Make sur to the authentication/authorisation</p>
                         </li>
                         <li>
                             <BiCheck className="service__list-icon" />
@@ -36,32 +61,7 @@ const Services = () => {
 
                 <article className="service">
                     <div className="service__head">
-                        <h3> UI/UX Design </h3>
-                    </div>
-
-                    <ul className='service__list'>
-                        <li>
-                            <BiCheck className="service__list-icon" />
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className="service__list-icon" />
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className="service__list-icon" />
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className="service__list-icon" />
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        </li>
-                    </ul>
-                </article>
-
-                <article className="service">
-                    <div className="service__head">
-                        <h3> UI/UX Design </h3>
+                        <h3> Data Base</h3>
                     </div>
 
                     <ul className='service__list'>

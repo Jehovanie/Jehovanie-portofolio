@@ -14,7 +14,7 @@ const Header = () => {
                     <h1>Jehovanie RAMANDRIJOEL</h1>
                 </Zoom>
                 <Flip bottom cascade>
-                    <h5 className='text-light'> Front-End Developpeur React and Angular</h5>
+                    <h5 className='text-light'>Web Developpeur</h5>
                 </Flip>
                 <CTA />
                 <HeaderSocial />

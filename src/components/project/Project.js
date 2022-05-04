@@ -6,7 +6,7 @@ import IMG3 from '../../assets/model-3.jpg';
 
 const Project = () => {
     return (
-        <section id="#project">
+        <section id="project">
             <h5> My Recent Work</h5>
             <h2> Web Site </h2>
 
@@ -20,7 +20,7 @@ const Project = () => {
                         <a href="https://github.com" className='btn' target="_blank">
                             Github
                         </a>
-                        <a href="https://linkedin.com" className='btn btn-primary' target="_blank">
+                        <a href="https://linkedin.com" className='btn btn-primary' target="_blank" rel="noreferrer">
                             Live Demo
                         </a>
                     </div>
@@ -35,7 +35,7 @@ const Project = () => {
                         <a href="https://github.com" className='btn' target="_blank">
                             Github
                         </a>
-                        <a href="https://linkedin.com" className='btn btn-primary' target="_blank">
+                        <a href="https://linkedin.com" className='btn btn-primary' target="_blank" rel="noreferrer">
                             Live Demo
                         </a>
                     </div>
@@ -50,7 +50,7 @@ const Project = () => {
                         <a href="https://github.com" className='btn' target="_blank">
                             Github
                         </a>
-                        <a href="https://linkedin.com" className='btn btn-primary' target="_blank">
+                        <a href="https://linkedin.com" className='btn btn-primary' target="_blank" rel="noreferrer">
                             Live Demo
                         </a>
                     </div>
