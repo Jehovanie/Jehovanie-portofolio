@@ -79,7 +79,6 @@ img {
         display: grid;
         grid-template-columns: 35% 60%;
         gap: 10%;
-        height: 80% !important;
     }
 
     .about__me {

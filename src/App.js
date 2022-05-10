@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/header/Header';
+import OtherHead from './components/otherHeader/OtherHead';
 import About from './components/about/About'
 import Nav from './components/nav/Nav';
 import Experience from './components/experience/Experience';
@@ -12,7 +13,8 @@ import Project from './components/project/Project';
 const App = () => {
     return (
         <div className='app'>
-            <Header />
+            <OtherHead />
+            {/* <Header /> */}
             <Nav />
             <About />
             <Experience />

@@ -29,7 +29,7 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 10px;
 }
 
 .header__socials::after {
@@ -47,6 +47,7 @@ header {
     height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
+    bottom: 10%;
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     padding: 5rem 0rem 0rem 0rem;
@@ -66,7 +67,13 @@ header {
 
 /* ================== MEDIA QUERIES ( LARGE DEVICES ) ==================== */
 
-@media screen and (max-width : 1024px) {}
+@media screen and (max-width : 1024px) {
+    header {
+        height: 80vh !important;
+        padding-top: 2rem;
+        overflow: hidden;
+    }
+}
 
 /* ================== MEDIA QUERIES ( MEDIEUM DEVICES ) ==================== */
 
