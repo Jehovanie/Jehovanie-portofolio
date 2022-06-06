@@ -29,7 +29,7 @@ header {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 4%;
+    margin-top: 10%;
 }
 
 .dev {
@@ -41,8 +41,8 @@ header {
 }
 
 .dev img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     background-color: var(--color-primary);
     border-radius: 25px 25px 0 0;
 }
@@ -68,7 +68,7 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    top: 25rem;
+    top: 30rem;
 }
 
 .header__socials::after {
@@ -128,7 +128,7 @@ header {
         height: 73%;
 
         position: absolute;
-        top: 45%;
+        top: 50%;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -142,8 +142,8 @@ header {
     }
 
     .dev img {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         background-color: var(--color-primary);
         border-radius: 25px 25px 0 0;
     }

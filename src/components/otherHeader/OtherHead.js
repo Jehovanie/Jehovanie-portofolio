@@ -1,10 +1,10 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
 import Flip from 'react-reveal/Flip';
-import CTA from '../header/CTA';
+import CTA from './CTA';
 import DEV from '../../assets/image-5.png';
 import "./other_head.css";
-import HeaderSocial from '../header/HeaderSocial';
+import HeaderSocial from './HeaderSocial';
 
 
 const OtherHead = () => {
