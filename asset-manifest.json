@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/iclo-portfolio/static/css/main.17c544d5.css",
+    "main.js": "/iclo-portfolio/static/js/main.c62c8f54.js",
+    "static/media/model-3.jpg": "/iclo-portfolio/static/media/model-3.30651f796c26e128fa1b.jpg",
+    "static/media/avatar.jpg": "/iclo-portfolio/static/media/avatar.b349f606c1dd8c44d08b.jpg",
+    "static/media/image-6.png": "/iclo-portfolio/static/media/image-6.3d1dd08e8bce84db7c46.png",
+    "static/media/model-1.jpg": "/iclo-portfolio/static/media/model-1.93bbd9629c3906817112.jpg",
+    "static/media/image-5.png": "/iclo-portfolio/static/media/image-5.6081a3cca0cd30826a4c.png",
+    "static/media/model-2.jpg": "/iclo-portfolio/static/media/model-2.e908d6555610dd7fd7d7.jpg",
+    "static/media/cv.pdf": "/iclo-portfolio/static/media/cv.9d0bf5e6006f4d79ee98.pdf",
+    "static/media/CircularStd-Book.ttf": "/iclo-portfolio/static/media/CircularStd-Book.56e46dd26062a08cfc7c.ttf",
+    "static/media/developpeur.png": "/iclo-portfolio/static/media/developpeur.0e77abb1230bbd1810a0.png",
+    "index.html": "/iclo-portfolio/index.html",
+    "main.17c544d5.css.map": "/iclo-portfolio/static/css/main.17c544d5.css.map",
+    "main.c62c8f54.js.map": "/iclo-portfolio/static/js/main.c62c8f54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17c544d5.css",
+    "static/js/main.c62c8f54.js"
+  ]
+}
