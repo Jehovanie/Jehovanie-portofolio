@@ -300,11 +300,9 @@ header {
         justify-content: center;
         text-align: left;
 
-        background-image: url('../../assets/developpeur.png');
+        background-image: url('../../assets/image/developpeur.png');
         background-repeat: no-repeat;
         background-position: 13rem -2rem;
-
-
     }
 
     .cta {

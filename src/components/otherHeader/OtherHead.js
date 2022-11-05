@@ -2,7 +2,7 @@ import React from 'react';
 import Zoom from 'react-reveal/Zoom';
 import Flip from 'react-reveal/Flip';
 import CTA from './CTA';
-import DEV from '../../assets/image-5.png';
+import DEV from '../../assets/image/image-5.png';
 import "./other_head.css";
 import HeaderSocial from './HeaderSocial';
 
